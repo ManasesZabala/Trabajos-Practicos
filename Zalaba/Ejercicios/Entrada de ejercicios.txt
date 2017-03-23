@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main()
+{
+	char rta;
+	do
+	{
+		system("cls");
+		
+		
+		printf("\nDesea seguir usando esta aplicacion? (S/N): ");
+		rta=tolower(getche());
+		while(rta!='s' && rta!='n')
+		{
+			printf("\nError respuesta distinta de S y N. Desea seguir usando esta aplicacion?(S/N): ");
+			rta=tolower(getche());
+		}
+	}while(rta=='s');
+	
+	
+}
