@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1496942316 source:c:\users\manases\desktop\practica parcial\zabala\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1496942296 c:\users\manases\desktop\practica parcial\zabala\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1496942265 source:c:\users\manases\desktop\practica parcial\zabala\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
