@@ -1,29 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
-30. Dados 3 números donde el primero y el último son límites de un intervalo,
- indicar si el tercero pertenece a dicho intervalo
-*/
+
 int main()
 {
-    int min,max;
-    float num;
-    printf("\nIngrese limite minimo: ");
-    scanf("%d",&min);
-    printf("\nIngrese limite maximo: ");
-    scanf("%d",&max);
-    printf("\n Ingrese numero: ");
-    scanf("%f",&num);
-    if(num>=min && num<=max)
+    float num1;
+    float num2;
+    float num3;
+    printf("\nIngrese numero 1:");
+    scanf("%f",&num1);
+    printf("\nIngrese numero 2:");
+    scanf("%f",&num2);
+    printf("\nIngrese numero 3:");
+    scanf("%f",&num3);
+    if(num3>=num1 && num3<=num2)
     {
-        system("cls");
-        printf("El numero  pertenece al intervalo.");
-
+        printf("\n El numero %.2f se encuentra entre %.2f y %.2f",num3,num1,num2);
     }
     else
     {
-        system("cls");
-        printf("El numero no pertenece al intervalo");
+        printf("\n El numero %.2f no pertenece al intervalo de %.2f y %.2f.",num3,num1,num3);
     }
-
 }
