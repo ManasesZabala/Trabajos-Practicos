@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1502702140 source:c:\users\manases\desktop\practica\57\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
