@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1508791306 source:c:\users\manases\desktop\practica\parciales\modelo 1\modelo 1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<math.h>
+	<string.h>
+	"funciones.h"
+
+1508791284 c:\users\manases\desktop\practica\parciales\modelo 1\modelo 1\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+	<string.h>
+
+1508790822 source:c:\users\manases\desktop\practica\parciales\modelo 1\modelo 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<math.h>
+	<string.h>
+	"funciones.h"
+
