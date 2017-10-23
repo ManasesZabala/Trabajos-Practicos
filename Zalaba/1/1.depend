@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1506963772 source:c:\users\manases\desktop\practica\parciales\1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"funciones.h"
+
+1506965435 c:\users\manases\desktop\practica\parciales\1\funciones.h
+
+1506965449 source:c:\users\manases\desktop\practica\parciales\1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	"funciones.h"
+
